@@ -1,4 +1,5 @@
-name = input("What is your name? ")
+name = raw_input("What is your name? ")
+print(name) 
 print("HELLO, " + name.upper())
 length = len(name)
 print("Your name has ".upper() + str(length) + " letters in it!".upper())

@@ -10,16 +10,16 @@
 # What is subject? math
 # Marty's favorite subject in school is math.
 
-name = input("What is your name? ") 
+name = raw_input("What is your name? ") 
 # Lauren
-subject = input("What is your favorite subject in school? ")
+subject = raw_input("What is your favorite subject in school? ")
 # science
 print(name +"'s favorite subject in school is " + subject)
 # lauren's favorite subject in school is science
 
-input_1 = input("Give me a color: ")
+input_1 = raw_input("Give me a color: ")
 # Give me a color: blue
-input_2 = input("Give me an object: ")
+input_2 = raw_input("Give me an object: ")
 print("The " + input_2 + " is " + input_1)
 # Give me an object: truck
 # The truck is blue
